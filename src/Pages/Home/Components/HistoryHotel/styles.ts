@@ -5,10 +5,17 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  margin: 0 auto;
-  display: flex;
-  gap: 30px;
-
   width: 100%;
-  max-width: 1140px;
+
+  padding: 15px 0;
+
+  h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+  }
+  p {
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
 `;
