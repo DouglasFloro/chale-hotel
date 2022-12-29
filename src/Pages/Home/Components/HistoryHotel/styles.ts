@@ -9,13 +9,15 @@ export const Container = styled.div`
 
   padding: 15px 0;
 
-  h2 {
-    color: #7d7640;
-    font-size: 1.1em;
-    padding: 5px 0;
-  }
-  p {
-    font-size: 1em;
-    padding-bottom: 10px;
+  div {
+    h2 {
+      color: #7d7640;
+      font-size: 1.1em;
+      padding: 5px 0;
+    }
+    p {
+      font-size: 1em;
+      padding-top: 12px;
+    }
   }
 `;

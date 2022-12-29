@@ -6,10 +6,10 @@ export const HistoryHotel: React.FC = () => {
     <S.Wrapper>
       <S.Container>
         {historyHotel.map((value) => (
-          <>
+          <div key={value.id}>
             <h2>{value.title}</h2>
             <p>{value.text}</p>
-          </>
+          </div>
         ))}
       </S.Container>
     </S.Wrapper>

@@ -22,6 +22,14 @@ export const Container = styled.ul`
   a {
     display: flex;
     flex-direction: column;
+
+    h3 {
+      color: #7d7640;
+    }
+
+    p {
+      color: #000;
+    }
   }
 
   h3,

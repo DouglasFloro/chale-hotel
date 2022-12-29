@@ -9,7 +9,7 @@ export const InfoHotel: React.FC = () => {
     <S.Wrapper>
       <S.Container>
         {infoHotel.map((value) => (
-          <li>
+          <li key={value.title}>
             <>
               <img src={value.image} />
               <a href="">
